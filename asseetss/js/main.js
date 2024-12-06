@@ -25,27 +25,26 @@ if (a>0){
 } if(a<0){
     alert(`-1`)}
 
-// задание 3
 
-// let result;
-// if (a + b < 4) {
-//   result = 'Мало';
-// } else {
-//   result = 'Много';	
-// }
+let result;
+if (a + b < 4) {
+  result = 'Мало';
+} else {
+  result = 'Много';	
+}
 
 a+b < 4 ? 'Мало' : 'Много'
 
 //задание 4
 
-// let message;
-// if (login == 'Сотрудник') {
-//   message = 'Привет';
-// } else if (login == 'Директор') {
-//   message = 'Здравствуйте';
-// } else if (login == '') {
-//   message = 'Нет логина';
-// }
+let message;
+if (login == 'Сотрудник') {
+  message = 'Привет';
+} else if (login == 'Директор') {
+  message = 'Здравствуйте';
+} else if (login == '') {
+  message = 'Нет логина';
+}
 
 login == 'Сотрудник'? 'Привет': 'Нет логина'
 login == 'Директор'? 'Привет': 'Нет логина'
